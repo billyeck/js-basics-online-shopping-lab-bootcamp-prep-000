@@ -40,16 +40,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var tester=0;
- for (var i=0; i<cart.length; i++){
-   if (cart[i].itemName===item){
-     delete cart[i];
-     tester=1;
-     return cart;
-   }
- } if (tester===0){
-   return "That item is not in your cart."}
- }
+  
+}
 
 function placeOrder(cardNumber) {
   // write your code here
