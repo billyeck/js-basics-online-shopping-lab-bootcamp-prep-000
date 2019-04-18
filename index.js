@@ -56,7 +56,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  currentTotal=total();
+  var currentTotal=total();
   if (isNaN(cardNumber)){
     return "Sorry, we don't have a credit card on file for you.";
   }
