@@ -57,7 +57,6 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if (cardNumber.length<1){
-    return "Sorry, we don't."
-  }
+    return "Sorry"
   }
 }
